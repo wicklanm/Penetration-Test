@@ -1,27 +1,66 @@
-# PROJECTNAME
+# Penetration Testing Technical Report 
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+This Technical Report explains in detail the vulnerabilities Artemis, Inc. faces by a thorough penetration test. It shows in detail the assessment overview. It lists the risk factors in detail, along with their security ratings. The scope of this project is defined and agreed upon by both the pen testers and the executives of the client, Artemis Inc. Technical Findings will be included in detail.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+Technical Security Skills
+
+-OSINT reconnaissance and passive information gathering
+-Network scanning, enumeration, and host discovery
+-Vulnerability assessment and CVSS scoring
+-Web application testing (SQLi, broken access control, sensitive data exposure)
+-Exploit development and validation
+-Cloud security assessment (AWS)
+-Post-exploitation techniques (lateral movement, privilege escalation, credential harvesting)
+
+Analytical and Reporting Skills
+
+-Correlating findings across multiple tools into cohesive attack narratives
+-Assigning accurate risk ratings and CVSS scores
+-Modeling realistic attacker behavior and attack chains
+-Writing clear technical findings for both technical and executive audiences
+-Structuring prioritized remediation guidance
 
 ### Tools Used
 [Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+OSINT and Reconnaissance
 
-## Steps
+Google Dorking, Whois/Domain Tools, Nslookup/dig, crt.sh
+Amass, Subfinder, Shodan, Censys, theHarvester
+Hunter.io, VoilaNorbert, Maltego, Recon-ng, SpiderFoot
+GitHub/GitLab search, FOCA, Wayback Machine
+LinkedIn/Twitter/Facebook, ZoomEye, BinaryEdge, Netcraft
+Google Maps, Reverse Whois, Passive DNS services
+
+Host Discovery and Network Enumeration
+
+-Nmap — port scanning and service fingerprinting
+-Fierce — subdomain and internal IP discovery
+-OpenVAS — deep service scanning and vulnerability fingerprinting
+-Metasploit Framework — vulnerability validation and banner grabbing
+-Nikto — web server misconfiguration and outdated software detection
+
+Vulnerability Scanning
+
+-Tenable Nessus — deep network and host vulnerability analysis
+-OpenVAS (Greenbone) — vulnerability management and reporting
+-Burp Suite — web application traffic interception and vulnerability scanning
+-Wapiti — command-line web application vulnerability scanning
+-Nikto — web server security issue detection
+
+Exploitation and Post-Exploitation
+
+-SQLmap — automated SQL injection exploitation
+-Hydra / Medusa — online brute-force and credential stuffing
+-Mimikatz — credential harvesting from Windows systems
+-CrackMapExec — network-wide credential testing and enumeration
+-Hashcat / John the Ripper — offline password hash cracking
+
+## Penetration Testing Report
 drag & drop screenshots here or use imgur and reference them using imgsrc
 
 Every screenshot should have some text explaining what the screenshot is about.
