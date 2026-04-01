@@ -25,7 +25,6 @@ Analytical and Reporting Skills
 -Structuring prioritized remediation guidance
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
 OSINT and Reconnaissance
 
